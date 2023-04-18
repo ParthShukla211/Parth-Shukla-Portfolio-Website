@@ -1,0 +1,925 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+/* --------------------------- PreLoader --------------------------- */
+
+.spinner-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  z-index: 99999;
+}
+
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  margin-top: 49vh !important;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: rgb(255, 255, 255);
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1);
+  }
+}
+
+/* --------------------------- PreLoader --------------------------- */
+
+.heroRight {
+  text-align: center !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  .heroRight {
+    text-align: right !important;
+    padding-right: 10vw !important;
+    margin-bottom: 20px;
+  }
+}
+
+/* --------------------------- Footer --------------------------- */
+
+@keyframes svg-text-anim {
+  40% {
+    stroke-dashoffset: 0;
+    fill: transparent;
+  }
+  60% {
+    stroke-dashoffset: 0;
+    fill: #ffffff;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #ffffff;
+  }
+}
+
+/* --------------------------- Home Page --------------------------- */
+
+.hero-container {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-container {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .headshot {
+    padding: 30px !important;
+  }
+}
+
+.eventImage {
+  border-radius: 20px;
+}
+
+.eventTextPop {
+  border-radius: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.footerLinks {
+  border-radius: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+/* --------------------------- Experience Page --------------------------- */
+
+.exp {
+  transform: skewY(-4deg);
+}
+
+.ex {
+  transform: skewY(4deg) !important;
+}
+
+.exp1 {
+  background-image: linear-gradient(to bottom right, #006386, #004057);
+  transform: skewY(-4deg);
+}
+
+
+
+.exp2 {
+  background-image: linear-gradient(to bottom right, #4eff5b, #007c08);
+  transform: skewY(-4deg);
+}
+
+.exp3 {
+  background-image: linear-gradient(to bottom right, #2549ff, #202a5d);
+  transform: skewY(-4deg);
+}
+
+.exp4 {
+  background-image: linear-gradient(to bottom right, #2446ff, #2c3878);
+  transform: skewY(-4deg);
+}
+
+.exp5 {
+  background-image: linear-gradient(to bottom right, #006199, #38b6ff);
+  transform: skewY(-4deg);
+}
+
+.exp6 {
+  background-image: linear-gradient(to bottom right, #004047, #2295a1);
+  transform: skewY(-4deg);
+}
+
+.exp7 {
+  background-image: linear-gradient(to bottom right, #fd8d36, #f9c45f);
+  transform: skewY(-4deg);
+}
+
+.exp8 {
+  background-image: linear-gradient(to bottom right, #006ba7, #081a24);
+  transform: skewY(-4deg);
+}
+
+.exp9 {
+  background-image: linear-gradient(to bottom right, #00522a, #02a556);
+  transform: skewY(-4deg);
+}
+
+.exp10 {
+  background-image: linear-gradient(to bottom right, #007b9d, #45dde3);
+  transform: skewY(-4deg);
+}
+
+.exp11 {
+  background-image: linear-gradient(to bottom right, #3d18ff, #0e0057);
+  transform: skewY(-4deg);
+}
+
+.exp12 {
+  background-image: linear-gradient(to bottom right, #2c2c2c, #404041);
+  transform: skewY(-4deg);
+}
+
+.exp13 {
+  background-image: linear-gradient(to bottom right, #003b72, #027ef2);
+  transform: skewY(-4deg);
+}
+
+.exp14 {
+  background-image: linear-gradient(to bottom right, #b43a00, #fd5709);
+  transform: skewY(-4deg);
+}
+
+.exp15 {
+  background-image: linear-gradient(to bottom right, #0e0a2c, #1400ad);
+  transform: skewY(-4deg);
+}
+
+.exp39 {
+  background-image: linear-gradient(to bottom right, #7399c6, #417dc4);
+  transform: skewY(-4deg);
+}
+
+.exp40 {
+  background-image: linear-gradient(to bottom right, #007296, #01465c);
+  transform: skewY(-4deg);
+}
+
+.exp16 {
+  background-image: linear-gradient(to bottom right, #a02200, #eb5830);
+  transform: skewY(-4deg);
+}
+
+.exp17 {
+  background-image: linear-gradient(to bottom right, #00773c, #2c3430);
+  transform: skewY(-4deg);
+}
+
+.exp18 {
+  background-image: linear-gradient(to bottom right, #002641, #015796);
+  transform: skewY(-4deg);
+}
+
+.exp19 {
+  background-image: linear-gradient(to bottom right, #2f5cff, #0027b3);
+  transform: skewY(-4deg);
+}
+
+.exp20 {
+  background-image: linear-gradient(to bottom right, #004f63, #009cc4);
+  transform: skewY(-4deg);
+}
+
+.exp21 {
+  background-image: linear-gradient(to bottom right, #5f0019, #dd3c66);
+  transform: skewY(-4deg);
+}
+
+.exp22 {
+  background-image: linear-gradient(to bottom right, rgb(51, 0, 14), #bf1522);
+  transform: skewY(-4deg);
+}
+
+.exp23 {
+  background-image: linear-gradient(to bottom right, #9c7000, #e7b12d);
+  transform: skewY(-4deg);
+}
+
+.exp24 {
+  background-image: linear-gradient(to bottom right, #003558, #0a64a1);
+  transform: skewY(-4deg);
+}
+
+.exp25 {
+  background-image: linear-gradient(to bottom right, #1b1b1b, #3b3b3b);
+  transform: skewY(-4deg);
+}
+
+.exp26 {
+  background-image: linear-gradient(to bottom right, #4901bd, #7354a5);
+  transform: skewY(-4deg);
+}
+
+.exp27 {
+  background-image: linear-gradient(to bottom right, #a36700, #ffa914);
+  transform: skewY(-4deg);
+}
+
+.exp28 {
+  background-image: linear-gradient(to bottom right, #005c34, #27ab71);
+  transform: skewY(-4deg);
+}
+
+.exp29 {
+  background-image: linear-gradient(to bottom right, #41004b, #7b3e85);
+  transform: skewY(-4deg);
+}
+
+.exp30 {
+  background-image: linear-gradient(to bottom right, #a81c00, #682012);
+  transform: skewY(-4deg);
+}
+
+.exp31 {
+  background-image: linear-gradient(to bottom right, #8a3c00, #f19146);
+  transform: skewY(-4deg);
+}
+
+.exp32 {
+  background-image: linear-gradient(to bottom right, #00415f, #088bc9);
+  transform: skewY(-4deg);
+}
+
+.exp33 {
+  background-image: linear-gradient(to bottom right, #f300a6, #85005b);
+  transform: skewY(-4deg);
+}
+
+.exp34 {
+  background-image: linear-gradient(to bottom right, #2885ff, #00193a);
+  transform: skewY(-4deg);
+}
+
+.exp35 {
+  background-image: linear-gradient(to bottom right, #7c48d6, #4813a3);
+  transform: skewY(-4deg);
+}
+
+.exp36 {
+  background-image: linear-gradient(to bottom right, #ffd000, #d6af00);
+  transform: skewY(-4deg);
+}
+
+#avid{
+  background-image: linear-gradient(to bottom right,  #f4afeb, #e000f4);
+  transform: skewY(-4deg);
+}
+
+.exp37 {
+  background-image: linear-gradient(to bottom right, #019bd7, #00658d);
+  transform: skewY(-4deg);
+}
+
+.exp38 {
+  background-image: linear-gradient(to bottom right, #ed6d0a, #a44700);
+  transform: skewY(-4deg);
+}
+
+/* --------------------------- Certifications Page --------------------------- */
+
+.gradientText {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #00c4cc 0%, #7c2ae8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cert {
+    background-image: url(../../assets/img/BW2.png) !important;
+  }
+}
+
+/* --------------------------- Event Page --------------------------- */
+
+.eveText {
+  text-align: right !important;
+  padding-left: 150px;
+}
+
+.eventDiv {
+  color: #ffffff;
+  width: 100%;
+  height: 300px;
+  border-radius: 5px !important;
+  margin-left: -100px;
+}
+
+.eventDiv p {
+  margin-left: 10%;
+  margin-right: 40%;
+}
+
+.eventDiv p:first-of-type {
+  padding-top: 15% !important;
+}
+
+.eventImg {
+  width: 350px !important;
+  margin-left: 50%;
+  margin-top: -60%;
+  z-index: 99999 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .eventImg {
+    display: block;
+    width: 250px !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -40px;
+    z-index: 99999 !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eveText {
+    text-align: center !important;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eventDiv {
+    height: 230px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eventDiv p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eventDiv p:first-of-type {
+    padding-top: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .eveGradientText {
+    margin-top: 50px;
+  }
+}
+
+.eveGradientText1 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #00c4cc 0%, #7c2ae8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText2 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #bb0000 0%, #ff0043 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText3 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #2d31f3 0%, #00a2ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText4 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #d31093 0%, #1846fa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText5 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #002366 0%, #004fe4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText6 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #c95700 0%, #ff630c 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText7 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #96c93d 0%, #00b09b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText8 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ff914d 0%, #ffde59 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText9 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #004aad 0%, #38b6ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText10 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #d3a200 0%, #ffd23c 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText11 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #450053 0%, #9c0fb8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText12 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ffa300 0%, #fa4703 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText13 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #330092 0%, #6f42c1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText14 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #001b7a 0%, #345ffd 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eveGradientText15 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ac45d4 0%, #6f00ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.eventDiv1 {
+  background-image: linear-gradient(to right, #00c4cc 0%, #7c2ae8 100%) !important;
+}
+
+.eventDiv2 {
+  background-image: linear-gradient(to right, #bb0000 0%, #ff0043 100%) !important;
+}
+
+.eventDiv3 {
+  background-image: linear-gradient(to right, #2d31f3 0%, #00a2ff 100%) !important;
+}
+
+.eventDiv4 {
+  background-image: linear-gradient(to right, #d31093 0%, #1846fa 100%) !important;
+}
+
+.eventDiv5 {
+  background-image: linear-gradient(to right, #002366 0%, #004fe4 100%) !important;
+}
+
+.eventDiv6 {
+  background-image: linear-gradient(to right, #c95700 0%, #ff630c 100%) !important;
+}
+
+.eventDiv7 {
+  background-image: linear-gradient(to right, #96c93d 0%, #00b09b 100%) !important;
+}
+
+.eventDiv8 {
+  background-image: linear-gradient(to right, #ff914d 0%, #ffde59 100%) !important;
+}
+
+.eventDiv9 {
+  background-image: linear-gradient(to right, #004aad 0%, #38b6ff 100%) !important;
+}
+
+.eventDiv10 {
+  background-image: linear-gradient(to right, #d3a200 0%, #ffd23c 100%) !important;
+}
+
+.eventDiv11 {
+  background-image: linear-gradient(to right, #450053 0%, #9c0fb8 100%) !important;
+}
+
+.eventDiv12 {
+  background-image: linear-gradient(to right, #ffa300 0%, #fa4703 100%) !important;
+}
+
+.eventDiv13 {
+  background-image: linear-gradient(to right, #330092 0%, #6f42c1 100%) !important;
+}
+
+.eventDiv14 {
+  background-image: linear-gradient(to right, #001b7a 0%, #345ffd 100%) !important;
+}
+
+.eventDiv15 {
+  background-image: linear-gradient(to right, #ac45d4 0%, #6f00ff 100%) !important;
+}
+
+/* --------------------------- Accomplishments Page --------------------------- */
+
+.paddingAcc {
+  padding: 60px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .paddingAcc {
+    padding: 30px;
+  }
+}
+
+.containerAcc {
+  padding: 20px;
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 20px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.imageSection {
+  padding: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .imageSection {
+    padding: 15px;
+  }
+}
+
+.imageAcc {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textSection {
+  padding: 40px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+  .textSection {
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+.headAcc {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1200px) {
+  .headAcc {
+    font-size: 30px;
+  }
+}
+
+.italicAcc {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.hrBar {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 2px;
+  background-color: whitesmoke;
+}
+
+.paraAcc {
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+.paddingAcc0 {
+  background: repeating-radial-gradient( circle at 0 0, #252525, #030303 50px );
+}
+
+.paddingAcc1 {
+  background: repeating-radial-gradient( circle at 0 0, #396afc, #254ab9 150px );
+}
+
+.paddingAcc01 {
+  background: repeating-radial-gradient( circle at 0 0, #002491, #001555 150px );
+}
+
+.paddingAcc2 {
+  background: repeating-radial-gradient( circle at 0 0, #983ac9, #651491 150px );
+}
+
+.paddingAcc3 {
+  background: repeating-radial-gradient( circle at 0 0, #dd503d, #9c1b09 150px );
+}
+
+.paddingAcc4 {
+  background: repeating-radial-gradient( circle at 0 0, #01745c, #004939 150px );
+}
+
+.paddingAcc5 {
+  background: repeating-radial-gradient( circle at 0 0, #ffd735, #f7ad35 150px );
+}
+
+.paddingAcc6 {
+  background: repeating-radial-gradient( circle at 0 0, #960002, #530002 150px );
+}
+
+/* --------------------------- Projects Page --------------------------- */
+
+.projectDiv {
+  min-height: 100vh;
+  padding: 5vw;
+}
+
+.projectDivDiv {
+  margin: auto;
+  width: 86vw;
+  min-height: 90vh;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectDiv {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectDivDiv {
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+  }
+}
+
+.projectImages {
+  text-align: center !important;
+  padding: 5vw;
+}
+
+.projectImage1 {
+  width: 350px;
+}
+
+.projectImage2 {
+  margin-left: -100px;
+  width: 350px;
+}
+
+.projectImage3 {
+  margin-left: -100px;
+  width: 350px;
+}
+
+.projectImage4 {
+  margin-left: -100px;
+  width: 350px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectImage1 {
+    margin-top: 30px;
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectImage2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectImage3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectImage4 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    width: 320px;
+  }
+}
+
+.projectTextDiv {
+  padding: 5vw;
+  text-align: left;
+}
+
+.Line {
+  width: 80%;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .projectTextDiv {
+    padding: 5vw;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Line {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .LineMargin {
+    margin-top: 50px;
+  }
+}
+
+.projectDiv1 {
+  background-image: linear-gradient(to top right, #004677 0%, #1ba1ff 100%) !important;
+}
+
+.projectDivDiv1 {
+  background-image: linear-gradient(to top right, #1ba1ff 0%, #004677 100%) !important;
+}
+
+.projectDiv2 {
+  background-image: linear-gradient(to top right, #ff3535 0%, #880000 100%) !important;
+}
+
+.projectDivDiv2 {
+  background-image: linear-gradient(to top right, #880000 0%, #ff3535 100%) !important;
+}
+
+.projectDiv3 {
+  background-image: linear-gradient(to top right, #4DED30 0%, #00AB08 100%) !important;
+}
+
+.projectDivDiv3 {
+  background-image: linear-gradient(to top right, #00AB08 0%, #4DED30 100%) !important;
+}
+
+.projectDiv4 {
+  background-image: linear-gradient(to top right, #5f0a87 0%, #9c00e4 100%) !important;
+}
+
+.projectDivDiv4 {
+  background-image: linear-gradient(to top right, #9c00e4 0%, #5f0a87 100%) !important;
+}
+
+.projectDiv5 {
+  background-image: linear-gradient(to top right, #FF6200 0%, #993b00 100%) !important;
+}
+
+.projectDivDiv5 {
+  background-image: linear-gradient(to top right, #993b00 0%, #FF6200 100%) !important;
+}
+
+.projectDiv6 {
+  background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important;
+}
+
+.projectDivDiv6 {
+  background-image: linear-gradient(45deg, #bc1888 0%,#cc2366 25%,#dc2743 50%,#e6683c 75%,#f09433 100%) !important;
+}
+
