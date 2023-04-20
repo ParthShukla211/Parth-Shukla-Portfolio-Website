@@ -1,24 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>https://jay-gohil.me/accomplishments.html</loc>
+        <loc>https://parthshukla.tech/accomplishments.html</loc>
     </url>
     <url>
-        <loc>https://jay-gohil.me/certifications.html</loc>
+        <loc>https://parthshukla.tech/certifications.html</loc>
     </url>
     <url>
-        <loc>https://jay-gohil.me/events.html</loc>
+        <loc>https://parthshukla.tech/events.html</loc>
     </url>
     <url>
-        <loc>https://jay-gohil.me/experiences.html</loc>
+        <loc>https://parthshukla.tech/experiences.html</loc>
     </url>
     <url>
-        <loc>https://jay-gohil.me/</loc>
+        <loc>https://parthshukla.tech/</loc>
     </url>
     <url>
-        <loc>https://jay-gohil.me/projects.html</loc>
+        <loc>https://parthshukla.tech/projects.html</loc>
     </url>
     <url>
-        <loc>https://jay-gohil.me/resume.html</loc>
+        <loc>https://parthshukla.tech/resume.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/articles.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/recommendations.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/hackathons.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/competitions.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/studybg.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/personalinfo.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/research.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/more.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/testimonials.html</loc>
+    </url>
+    <url>
+        <loc>https://parthshukla.tech/courses.html</loc>
     </url>
 </urlset>
