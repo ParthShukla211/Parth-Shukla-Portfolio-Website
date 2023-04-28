@@ -542,7 +542,7 @@
 
 .eveGradientText9 {
   text-transform: uppercase;
-  background: linear-gradient(to right, #004aad 0%, #38b6ff 100%);
+ background: linear-gradient(to right, #056efa 0%, #38b6ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
