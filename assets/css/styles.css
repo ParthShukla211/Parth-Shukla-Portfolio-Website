@@ -349,6 +349,11 @@
   transform: skewY(-4deg);
 }
 
+.exp51 {
+    background-image: linear-gradient(to bottom right, #cde6f6, #6278e7);
+    transform: skewY(-4deg);
+}
+
 .exp34 {
   background-image: linear-gradient(to bottom right, #2885ff, #00193a);
   transform: skewY(-4deg);
